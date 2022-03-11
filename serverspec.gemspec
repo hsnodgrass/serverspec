@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'serverspec/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "serverspec"
+  spec.name          = "serverspec-cem-acpt"
   spec.version       = Serverspec::VERSION
-  spec.authors       = ["Gosuke Miyashita"]
-  spec.email         = ["gosukenator@gmail.com"]
-  spec.description   = %q{RSpec tests for your servers configured by Puppet, Chef, Itamae or anything else}
-  spec.summary       = %q{RSpec tests for your servers configured by Puppet, Chef, Itamae or anything else}
-  spec.homepage      = "http://serverspec.org/"
+  spec.authors       = ["Heston Snodgrass"]
+  spec.email         = [""]
+  spec.description   = %q{serverspec for cem_acpt}
+  spec.summary       = %q{serverspec for cem_acpt}
+  spec.homepage      = "https://github.com/hsnodgrass/serverspec-cem-acpt"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
